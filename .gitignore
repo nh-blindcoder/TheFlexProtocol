@@ -1,0 +1,51 @@
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Build output
+build/
+**/.pio
+.pio
+.pioenvs/
+.piolibdeps/
+
+# Compiled object files
+*.o
+*.obj
+*.slo
+*.lo
+*.d
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Linker / debugger files
+*.ilk
+*.pdb
+*.dwo
+
+# Libraries
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+
+# Fortran modules
+*.mod
+*.smod
+
+# Executables
+*.exe
+*.out
+*.app
+
+# PlatformIO misc
+.clang_complete
+.gcc-flags.json
+
+# Big dataset
+src/TinyML/Notebook/emg_data/
